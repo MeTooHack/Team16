@@ -18,3 +18,25 @@
   height: 150px;
   margin-bottom: 40px;
 }
+
+.quizCator{
+  height: 50px;
+}
+
+.quizImg{
+  margin-bottom: 40px;
+}
+/*
+ul {
+    list-style-image: url('../res/quiz_fraga_app.svg');
+}*/ 
+
+li {
+	margin: 0;
+	padding: 36px 0 36px 84px;
+	list-style: none;
+	background-image: url('../res/quiz_fraga_app.svg');
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 40px;
+}
