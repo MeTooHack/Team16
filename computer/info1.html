@@ -4,12 +4,11 @@
   <title>MeToo-Hack Kids Game</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="style/style.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="../style/style.css">
   <style>
     /* Remove the navbar's default margin-bottom and rounded borders */
     .navbar {
@@ -40,29 +39,42 @@
   </style>
 </head>
 <body>
-  <a href="javascript:history.back()"  style="float:left;"><i class="fa fa-angle-left" style="font-size:48px;color:#C64934;"></i></a>
-  <img src="res/Quiz_logo_red.svg" class="img-responsive"  alt="Image">
-<nav class="navbar navbar-inverse">
 
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <a href="javascript:history.back()" ><i class="fa fa-angle-left" style="font-size:48px;color:#C64934"></i></a>
+      <img src="../res/Quiz_logo_blue.svg" class="img-responsive"  alt="Image">
+        <img src="../res/timer.svg" class="img-responsive quizTimer" style="height:150px;"  alt="Image">
+    </div>
+  </nav>
 
-</nav>
 
 
 <div class="container text-center">
+  <h3>Följd fråga</h3><br>
+  <div class="row">
+    <div class="col-sm-12">
+      <div class="row">
+
+       <p>Question...</p>
 
 
 
-
-      <a href="school_yard/video.html"> <img src="res/levels.svg" class="img-responsive" style="width:100%" alt="Image"></a>
-
-
+           <a href="followUpQuestion.html"><button  id="answer1">Svar1</button></a>
+           <a href="quiz2.html"><button  id="answer2">Svar2</button></a>
 
 
+           <a href="quiz1.html"><button  id="answer3">Svar3</button></a>
+           <a href="quiz2.html"><button  id="answer4">Svar4</button></a>
+
+       </div>
 
 
-
-
+    </div>
+  </div>
 </div><br>
+
+
 
 </body>
 </html>

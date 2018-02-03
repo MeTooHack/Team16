@@ -1,6 +1,20 @@
 .btnAnswer{
-  
+
 	width:100%;
 	display: block;
 
+}
+
+.img-responsive {
+    margin: 0 auto;
+}
+
+.quizTimer{
+  height:80px;
+  margin-bottom: 40px;
+}
+
+.quiztext{
+  height: 150px;
+  margin-bottom: 40px;
 }
