@@ -26,10 +26,14 @@
 .quizImg{
   margin-bottom: 40px;
 }
+
+audio {
+   display:none;
+}
 /*
 ul {
     list-style-image: url('../res/quiz_fraga_app.svg');
-}*/ 
+}*/
 
 li {
 	margin: 0;
