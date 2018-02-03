@@ -7,9 +7,8 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <script src="scripts/img_script.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="../style/style.css">
   <style>
     /* Remove the navbar's default margin-bottom and rounded borders */
     .navbar {
@@ -41,30 +40,34 @@
 </head>
 <body>
 
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <a href="javascript:history.back()" ><i class="fa fa-angle-left" style="font-size:48px;color:#C64934"></i></a>
+      <img src="../res/Quiz_logo_blue.svg" class="img-responsive"  alt="Image">
+
+    </div>
+  </nav>
 
 
-  <div id="container">
-      <!--<canvas></canvas>-->
-      <img width="100%"  src="res/home.png"  usemap="#map"/>
+
+<div class="container text-center">
 
 
-      <map name="map">
-        <area href="school_yard.html" shape="rect" coords="0,0,200,200"
-            alt="Flag" title="Flag - says if it safe to swim">
+  <h3>Klar!</h3><br>
+  <div class="row">
 
-            <area href="computer_room.html" shape="rect" coords="200,0,400,200"
-                alt="Flag2" title="Flag2 - says if it safe to swim">
 
-</map>
+      <img src="../res/sidekick.png" class="img-responsive"   alt="Image">
 
+        <a href="../index.html"><button  id="room1">Gå till skola</button></a>
 
   </div>
+</div><br>
 
-  <!--
-  <a href="school_yard.html"><button  id="room1">Skolgård</button></a>
-  <a href="computer_room.html"><button  id="room2">Data sal</button></a>-->
+  <audio autoplay="autoplay" controls="controls">
+     <source src="../res/Fyrverkerier.wav" />
 
-
+  </audio>
 
 </body>
 </html>
